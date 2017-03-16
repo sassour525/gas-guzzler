@@ -2,6 +2,7 @@
 <head>
 	<title>Gas Guzzler</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAftx3wdXh4yGewNPNh3wXMtIj-yoLj7bM&libraries=places"></script>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
@@ -9,10 +10,11 @@
 
 	<h1>Gas Guzzler</h1>
 
+	<!-- <div id="maps"></div> -->
 	<div id="map"></div>
 
 	<input type="text" id="user-input">
-	<button type="submit" onclick="displayMap()">Submit</button>
+	<button type="submit" onclick="getResults()">Submit</button>
 
 </body>
 </html>
